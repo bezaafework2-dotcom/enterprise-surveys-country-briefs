@@ -1,0 +1,104 @@
+{
+ "country": "ETH",
+ "date": "2026-11-23",
+ "written_by": "ai",
+ "settings": {
+  "TOPICS": [
+   "Gender",
+   "Finance",
+   "Infrastructure and Climate"
+  ],
+  "INDICATORS": [],
+  "COMPARE_COUNTRIES": [],
+  "COMPARE_GROUPS": [
+   "own region",
+   "own income group"
+  ],
+  "GROUP_STATISTIC": "average"
+ },
+ "ai_problem": null,
+ "prompt": "You are helping an economist write a short country brief from World Bank Enterprise Surveys indicators.\n\nCountry: Ethiopia. Region: Sub-Saharan Africa. Income group: Low income.\n\nDATA: one line per indicator, 53 indicators, columns separated by \" | \". Every number you may use is here.\ncode | topic | indicator | unit | value | year | previous_value | previous_year | change | Sub-Saharan Africa average | gap vs Sub-Saharan Africa average | Low income average | gap vs Low income average | region_rank | region_countries | obstacle_rank | flags\nWB_ES_T_BREADY_FIN26 | Finance | Percent of firms reporting unfavorable rates, collateral, or procedures as main reason for not applying for loans | % | 59.4 | 2025 | 29.4 | 2015 | 30.0 | 41.4 | 18.0 | 47.2 | 12.2 | 7 | 47 |  | among the highest in the region; large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_FIN16 | Finance | Percent of firms identifying access to finance as a major or very severe constraint | % | 56.8 | 2025 | 20.3 | 2015 | 36.5 | 39.8 | 17.0 | 44.3 | 12.5 | 7 | 47 |  | among the highest in the region; large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_BREADY_IN1_MEDIAN | Infrastructure and Climate | Days to obtain an electrical connection, upon application [median] | days | 30.0 | 2025 | 150.0 | 2015 | -120.0 | 20.0 | 10.0 | 20.4 | 9.6 | 3 | 47 |  | among the highest in the region; large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_BREADY_FIN33 | Finance | Perceptions index of access to finance as a constraint |  | 60.5 | 2025 | 31.9 | 2015 | 28.6 | 48.7 | 11.7 | 51.9 | 8.6 | 8 | 47 |  | large change since the previous survey\nWB_ES_T_FIN3 | Finance | Proportion of investment financed by supplier/customer credit (%) | days | 1.0 | 2025 | 0.3 | 2015 | 0.7 | 4.9 | -3.9 | 4.2 | -3.2 | 43 | 47 |  | among the lowest in the region; large change since the previous survey\nWB_ES_T_BREADY_IN23 | Infrastructure and Climate | Perceptions index of transportation as a constraint |  | 44.6 | 2025 | 21.7 | 2015 | 23.0 | 36.7 | 7.9 | 41.0 | 3.7 | 12 | 47 |  | large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_IN1 | Infrastructure and Climate | Days to obtain an electrical connection, upon application | days | 44.2 | 2025 | 194.3 | 2015 | -150.2 | 29.8 | 14.3 | 31.4 | 12.7 | 11 | 47 |  | large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_FIN21 | Finance | Percent of firms whose recent loan application was rejected | % | 21.6 | 2025 | 15.1 | 2015 | 6.5 | 7.8 | 13.8 | 8.8 | 12.8 | 4 | 47 |  | among the highest in the region; large change since the previous survey\nWB_ES_T_FIN20 | Finance | Percent of firms not needing a loan | % | 20.3 | 2025 | 32.8 | 2015 | -12.5 | 36.8 | -16.5 | 31.9 | -11.6 | 43 | 47 |  | among the lowest in the region; large change since the previous survey\nWB_ES_T_IN11 | Infrastructure and Climate | Percent of firms identifying transportation as a major or very severe constraint | % | 21.2 | 2025 | 8.3 | 2015 | 12.9 | 23.9 | -2.6 | 28.2 | -7.0 | 27 | 47 |  | large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_GEND5 | Gender | Proportion of permanent full-time production workers that are women (%) | % | 37.6 | 2025 | 27.6 | 2015 | 10.0 | 23.5 | 14.1 | 19.8 | 17.8 | 7 | 47 |  | among the highest in the region; large change since the previous survey\nWB_ES_T_BREADY_IN3_MEDIAN | Infrastructure and Climate | Duration, in hours, of a typical electrical outage [median] | hours | 3.0 | 2025 | 2.0 | 2015 | 1.0 | 2.0 | 1.0 | 2.6 | 0.4 | 10 | 47 |  | large change since the previous survey\nWB_ES_T_GEND4 | Gender | Percent of firms with a woman top manager | % | 16.4 | 2025 | 4.5 | 2015 | 11.9 | 17.8 | -1.4 | 14.2 | 2.2 | 26 | 47 |  | large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_FIN4 | Finance | Proportion of investment financed by equity or stock sales (%) | % | 7.6 | 2025 | 0.8 | 2015 | 6.7 | 8.1 | -0.5 | 8.7 | -1.1 | 23 | 47 |  | large change since the previous survey; more than doubled or halved since the previous survey: verify before using\nWB_ES_T_GEND2 | Gender | Proportion of permanent full-time workers that are women (%) | % | 38.2 | 2025 | 27.7 | 2015 | 10.5 | 30.4 | 7.8 | 23.6 | 14.6 | 11 | 47 |  | large change since the previous survey\nWB_ES_T_FIN5 | Finance | Proportion of investment financed by other financing (%) | % | 3.0 | 2025 | 7.8 | 2015 | -4.7 | 4.8 | -1.8 | 5.6 | -2.6 | 31 | 47 |  | \nWB_ES_T_BREADY_FIN30 | Finance | Cost to receive main type of electronic payment (% of transaction) | % | 0.0 | 2025 |  |  |  | 2.1 | -2.1 | 2.2 | -2.2 | 43 | 45 |  | among the lowest in the region\nWB_ES_T_BREADY_IN22_MEDIAN | Infrastructure and Climate | Days to obtain internet connection [median] | days | 7.0 | 2025 |  |  |  | 4.6 | 2.4 | 3.8 | 3.2 | 3 | 45 |  | among the highest in the region\nWB_ES_T_BREADY_IN18 | Infrastructure and Climate | Percent of firms experiencing water insufficiencies | % | 52.4 | 2025 |  |  |  | 24.7 | 27.7 | 28.4 | 24.0 | 3 | 44 |  | among the highest in the region\nWB_ES_T_IN5 | Infrastructure and Climate | Days to obtain a water connection | days | 41.7 | 2025 | 47.1 | 2015 | -5.4 | 25.2 | 16.5 | 28.1 | 13.7 | 6 | 46 |  | among the highest in the region\nWB_ES_T_FIN12 | Finance | Percent of firms using banks to finance investments | % | 21.6 | 2025 | 12.9 | 2015 | 8.7 | 21.3 | 0.3 | 19.6 | 2.0 | 20 | 47 |  | large change since the previous survey\nWB_ES_T_BREADY_IN5_MEDIAN | Infrastructure and Climate | Days to obtain a water connection [median] | days | 20.0 | 2025 | 30.0 | 2015 | -10.0 | 14.5 | 5.5 | 16.6 | 3.4 | 12 | 46 |  | large change since the previous survey\nWB_ES_T_FIN15 | Finance | Percent of firms with a checking or savings account | % | 97.6 | 2025 | 92.6 | 2015 | 4.9 | 86.4 | 11.1 | 79.5 | 18.1 | 6 | 47 |  | among the highest in the region\nWB_ES_T_FIN23 | Finance | Percent of firms that are fully credit constrained | % | 39.6 | 2025 | 36.0 | 2015 | 3.6 | 22.6 | 17.1 | 25.4 | 14.2 | 7 | 46 |  | among the highest in the region\nWB_ES_T_GEND3 | Gender | Proportion of permanent full-time non-production workers that are women (%) | % | 46.1 | 2025 | 33.9 | 2015 | 12.2 | 37.7 | 8.4 | 27.5 | 18.6 | 14 | 47 |  | large change since the previous survey\nWB_ES_T_IN24 | Infrastructure and Climate | Percent of firms experiencing damage of physical assets due to extreme weather | % | 2.3 | 2025 |  |  |  | 11.7 | -9.4 | 14.1 | -11.8 | 40 | 45 |  | among the lowest in the region\nWB_ES_T_FIN24 | Finance | Percent of firms that are partially credit constrained | % | 26.2 | 2025 | 17.1 | 2015 | 9.1 | 28.1 | -1.9 | 31.3 | -5.1 | 28 | 46 |  | large change since the previous survey\nWB_ES_T_BREADY_FIN27 | Finance | Days to receive a decision on loan application | days | 42.5 | 2025 |  |  |  | 29.2 | 13.3 | 24.4 | 18.1 | 7 | 45 |  | among the highest in the region\nWB_ES_T_IN19 | Infrastructure and Climate | Number of water insufficiencies in a typical month |  | 12.0 | 2025 |  |  |  | 7.3 | 4.7 | 8.1 | 3.9 | 7 | 43 |  | among the highest in the region\nWB_ES_T_FIN13 | Finance | Percent of firms using banks to finance working capital | % | 23.3 | 2025 | 16.4 | 2015 | 6.9 | 19.9 | 3.4 | 17.1 | 6.2 | 18 | 47 |  | large change since the previous survey\nWB_ES_T_BREADY_FIN28 | Finance | Proportion of sales paid by customers electronically | % | 58.7 | 2025 |  |  |  | 39.2 | 19.5 | 32.6 | 26.1 | 9 | 45 |  | \nWB_ES_T_BREADY_FIN31 | Finance | Proportion of payments made electronically | % | 59.0 | 2025 |  |  |  | 37.8 | 21.1 | 27.0 | 32.0 | 9 | 45 |  | \nWB_ES_T_FIN14 | Finance | Percent of firms with a bank loan/line of credit | % | 23.5 | 2025 | 32.8 | 2015 | -9.4 | 22.1 | 1.3 | 16.7 | 6.7 | 17 | 47 |  | \nWB_ES_T_GEND9 | Gender | Proportion of women workers offered formal training over last fiscal year (%, only service sector) | % | 50.7 | 2025 |  |  |  | 62.8 | -12.1 | 52.3 | -1.6 | 35 | 44 |  | \nWB_ES_T_FIN11 | Finance | Proportion of loans requiring collateral (%) | % | 94.0 | 2025 | 85.8 | 2015 | 8.2 | 81.0 | 12.9 | 86.2 | 7.7 | 13 | 47 |  | \nWB_ES_T_FIN7 | Finance | Proportion of working capital financed by banks (%) | % | 8.1 | 2025 | 8.7 | 2015 | -0.6 | 6.6 | 1.5 | 5.0 | 3.1 | 13 | 47 |  | \nWB_ES_T_BREADY_IN21 | Infrastructure and Climate | Percent of firms experiencing internet disruptions | % | 60.1 | 2025 |  |  |  | 43.9 | 16.2 | 38.6 | 21.5 | 11 | 45 |  | \nWB_ES_T_BREADY_IN2 | Infrastructure and Climate | Number of electrical outages in a typical month |  | 6.6 | 2025 | 8.2 | 2015 | -1.6 | 6.8 | -0.2 | 9.6 | -3.0 | 16 | 47 |  | \nWB_ES_T_FIN1 | Finance | Proportion of investment financed internally (%) | % | 79.0 | 2025 | 83.3 | 2015 | -4.3 | 73.7 | 5.3 | 75.7 | 3.3 | 13 | 47 |  | \nWB_ES_T_IN20 | Infrastructure and Climate | Duration, in hours, of a typical water shortage | hours | 12.7 | 2025 |  |  |  | 10.6 | 2.0 | 7.9 | 4.8 | 11 | 43 |  | \nWB_ES_T_BREADY_GEND7 | Gender | Percent of firms owned or managed by women among those that held a government contract in last 3 years | % | 27.6 | 2025 |  |  |  | 37.3 | -9.6 | 33.7 | -6.0 | 33 | 45 |  | \nWB_ES_T_IN12 | Infrastructure and Climate | Percent of firms identifying electricity as a major or very severe constraint | % | 27.2 | 2025 | 33.3 | 2015 | -6.1 | 36.4 | -9.2 | 38.6 | -11.4 | 29 | 47 |  | \nWB_ES_T_IN26 | Infrastructure and Climate | Percent of firms adopting energy management measures to reduce emissions over last 3 years | % | 18.1 | 2025 |  |  |  | 25.4 | -7.3 | 24.0 | -5.9 | 30 | 43 |  | \nWB_ES_T_IN16 | Infrastructure and Climate | Percent of firms experiencing electrical outages | % | 85.9 | 2025 | 80.0 | 2015 | 5.8 | 72.4 | 13.5 | 76.3 | 9.6 | 17 | 47 |  | \nWB_ES_T_BREADY_FIN32 | Finance | Cost to make main type of electronic payment (% of transaction) | % | 0.7 | 2025 |  |  |  | 2.6 | -1.8 | 2.6 | -1.9 | 31 | 45 |  | \nWB_ES_T_BREADY_IN4_MEDIAN | Infrastructure and Climate | Losses due to electrical outages (% of annual sales) [median] | % | 0.0 | 2025 | 0.0 | 2015 | 0.0 | 1.0 | -1.0 | 2.1 | -2.1 | 16 | 47 |  | \nWB_ES_T_BREADY_IN9 | Infrastructure and Climate | Percent of firms owning or sharing a generator | % | 52.9 | 2025 | 49.1 | 2015 | 3.9 | 47.6 | 5.3 | 48.3 | 4.6 | 18 | 47 |  | \nWB_ES_T_FIN2 | Finance | Proportion of investment financed by banks (%) | % | 9.4 | 2025 | 7.8 | 2015 | 1.6 | 8.5 | 0.9 | 5.8 | 3.6 | 21 | 47 |  | \nWB_ES_T_GEND6 | Gender | Percent of firms with majority women ownership | % | 14.6 | 2025 | 16.5 | 2015 | -1.9 | 14.4 | 0.2 | 14.5 | 0.1 | 19 | 47 |  | \nWB_ES_T_BREADY_FIN29 | Finance | Days to receive the main type of electronic payment | days | 0.4 | 2025 |  |  |  | 0.8 | -0.4 | 0.7 | -0.3 | 30 | 45 |  | \nWB_ES_T_GEND1 | Gender | Percent of firms with women participation in ownership | % | 32.3 | 2025 | 36.2 | 2015 | -3.8 | 30.0 | 2.4 | 23.7 | 8.7 | 21 | 47 |  | \nWB_ES_T_IN25 | Infrastructure and Climate | Percent of firms monitoring own CO2 emissions over last 3 years | % | 13.2 | 2025 |  |  |  | 13.1 | 0.1 | 12.5 | 0.7 | 21 | 45 |  | \nWB_ES_T_GEND8 | Gender | Proportion of women workers offered formal training over last fiscal year (%) | % | 50.9 | 2025 |  |  |  | 51.7 | -0.8 | 45.3 | 5.7 | 24 | 44 |  | \n\nColumn guide: \"value\" is the latest survey value and \"year\" its survey year. \"previous_value\" and\n\"previous_year\" are the survey before it, and \"change\" is value minus previous_value. A column ending in\n\"average\" is the simple average of the latest values of the countries in that group. A column named after a country\nis that country's latest value, and the column ending in \"year\" beside it is its survey year. A column\nstarting \"gap vs\" is value minus that comparator. \"region_rank\" is the country's position among\n\"region_countries\" countries in its own region, where 1 is the highest value. \"obstacle_rank\" ranks the\nbiggest-obstacle indicators within the country, where 1 is the obstacle firms name most often. \"flags\" are\nnotes produced by simple rules. Empty cells mean no data.\n\nTASK: Write exactly one point for each of these topics: Gender, Finance, Infrastructure and Climate. For each topic, choose its most interesting indicator, or a pair of indicators that tell a story together.\n\nRULES:\n- Use only numbers that appear in DATA, written exactly as they appear or rounded to a whole number.\n  Do not calculate any new number.\n- Describe what the data show. Do not claim causes.\n- If a change looks too large to be plausible between two survey rounds, say in \"verify\" what should be\n  checked. Otherwise set \"verify\" to an empty string.\n- Plain English. Each \"text\" is at most 45 words. Do not put indicator codes in the text.\n\nReturn only JSON: a list of objects with the keys \"headline\" (at most 8 words), \"text\",\n\"indicators\" (the list of indicator codes the point uses) and \"verify\".",
+ "ai_answer": "```json\n[\n  {\n    \"headline\": \"Female leadership and employment shares have expanded\",\n    \"text\": \"The share of firms with a woman top manager rose from 4.5% in 2015 to 16.4% in 2025, approaching the regional average of 17.8%. Additionally, women made up 38.2% of permanent full-time workers in 2025, up from 27.7% in 2015.\",\n    \"indicators\": [\n      \"WB_ES_T_GEND4\",\n      \"WB_ES_T_GEND2\"\n    ],\n    \"verify\": \"Verify whether the share of firms with a woman top manager truly rose from 4.5% to 16.4% between survey rounds.\"\n  },\n  {\n    \"headline\": \"Access to finance constraints have worsened sharply\",\n    \"text\": \"In 2025, 56.8% of firms identified access to finance as a major or very severe constraint, up from 20.3% in 2015 and above the Sub-Saharan Africa average of 39.8%. Furthermore, 39.6% of firms are fully credit constrained.\",\n    \"indicators\": [\n      \"WB_ES_T_FIN16\",\n      \"WB_ES_T_FIN23\"\n    ],\n    \"verify\": \"Verify whether the proportion of firms reporting access to finance as a major constraint more than doubled from 20.3% to 56.8%.\"\n  },\n  {\n    \"headline\": \"Frequent water shortages pose severe operational challenges\",\n    \"text\": \"In 2025, 52.4% of firms experienced water insufficiencies, well above the Sub-Saharan Africa average of 24.7%. Firms reported an average of 12.0 water insufficiencies in a typical month, compared to the regional benchmark of 7.3.\",\n    \"indicators\": [\n      \"WB_ES_T_BREADY_IN18\",\n      \"WB_ES_T_IN19\"\n    ],\n    \"verify\": \"\"\n  }\n]\n```",
+ "checks": [
+  {
+   "headline": "Female leadership and employment shares have expanded",
+   "numbers_written": [
+    4.5,
+    2015.0,
+    16.4,
+    2025.0,
+    17.8,
+    38.2,
+    2025.0,
+    27.7,
+    2015.0,
+    4.5,
+    16.4
+   ],
+   "numbers_not_in_table": [],
+   "unknown_indicator_codes": [],
+   "passed": true
+  },
+  {
+   "headline": "Access to finance constraints have worsened sharply",
+   "numbers_written": [
+    2025.0,
+    56.8,
+    20.3,
+    2015.0,
+    39.8,
+    39.6,
+    20.3,
+    56.8
+   ],
+   "numbers_not_in_table": [],
+   "unknown_indicator_codes": [],
+   "passed": true
+  },
+  {
+   "headline": "Frequent water shortages pose severe operational challenges",
+   "numbers_written": [
+    2025.0,
+    52.4,
+    24.7,
+    12.0,
+    7.3
+   ],
+   "numbers_not_in_table": [],
+   "unknown_indicator_codes": [],
+   "passed": true
+  }
+ ],
+ "points_used": [
+  {
+   "headline": "Female leadership and employment shares have expanded",
+   "text": "The share of firms with a woman top manager rose from 4.5% in 2015 to 16.4% in 2025, approaching the regional average of 17.8%. Additionally, women made up 38.2% of permanent full-time workers in 2025, up from 27.7% in 2015.",
+   "indicators": [
+    "WB_ES_T_GEND4",
+    "WB_ES_T_GEND2"
+   ],
+   "verify": "Verify whether the share of firms with a woman top manager truly rose from 4.5% to 16.4% between survey rounds.",
+   "source": "ai"
+  },
+  {
+   "headline": "Access to finance constraints have worsened sharply",
+   "text": "In 2025, 56.8% of firms identified access to finance as a major or very severe constraint, up from 20.3% in 2015 and above the Sub-Saharan Africa average of 39.8%. Furthermore, 39.6% of firms are fully credit constrained.",
+   "indicators": [
+    "WB_ES_T_FIN16",
+    "WB_ES_T_FIN23"
+   ],
+   "verify": "Verify whether the proportion of firms reporting access to finance as a major constraint more than doubled from 20.3% to 56.8%.",
+   "source": "ai"
+  },
+  {
+   "headline": "Frequent water shortages pose severe operational challenges",
+   "text": "In 2025, 52.4% of firms experienced water insufficiencies, well above the Sub-Saharan Africa average of 24.7%. Firms reported an average of 12.0 water insufficiencies in a typical month, compared to the regional benchmark of 7.3.",
+   "indicators": [
+    "WB_ES_T_BREADY_IN18",
+    "WB_ES_T_IN19"
+   ],
+   "verify": "",
+   "source": "ai"
+  }
+ ]
+}
